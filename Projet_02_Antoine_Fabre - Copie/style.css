@@ -1,0 +1,414 @@
+
+
+@media all and (max-width: 992px) {
+    /* smartphone */
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        margin: auto;
+        align-items: center;
+    
+    
+    }
+    .container3 {
+        
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    #gigadiv {
+        flex-direction: column-reverse;
+    }
+    .filters {
+        flex-direction: column;
+    }
+    header {
+        flex-direction: column;
+    }
+    .linky {
+        font-size: 30px;
+    }
+    .illustrations2 {
+        width: 200px;
+        height: 120px;
+        border-radius: 15px;
+    }
+    .illustrations3 {
+    height: 160px;
+    width: 150px;
+    max-width: 150px;
+    max-height: 160px;
+    min-width: 150px;
+    min-height: 160px;
+    }
+    #Hebergements {
+        margin-top: 20px;
+    }
+    .vignettes2 {
+        max-width: 400px;
+    }
+    .vignettes {
+        max-width: 250px;
+    
+    }
+    .illustrations {
+        max-width: 250px;
+        min-width: 250px;
+    }
+    #populaires, #Hebergements {
+        max-width: 400px;
+        min-width: 300px;
+        background-color: white;
+        
+    }
+    .illustrations2 {
+        max-width: 250px;
+        min-width: 250px;
+        max-height: 120px;
+        min-height: 120px;
+    }
+    .vignettes3, .vignettes4 {
+        max-width: 250px;
+        min-width: 250px;
+        margin-top: 20px;
+    }
+    #Hebergements {
+        max-height: 1700px;
+    }
+    #note {
+        margin-top: 0px;
+    }
+ 
+
+
+    
+    
+    }
+
+
+
+@media only screen and (max-width: 768px) {}
+
+@font-face {
+    font-family: 'Raleway';
+    src : url('Raleway-VariableFont_wght.ttf')
+}
+
+.popy {
+    display: flex;
+}
+
+.pstyle {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: black;
+}
+.pstyle2 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 7px;
+    font-weight: bold;
+    color: black;
+}
+
+#button {
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+color: white;
+margin: -5px;
+padding: 8px;
+background-color: #0065FC;
+border: 0px;
+
+}
+#placeholder {
+    padding: 7px;
+    font-style: bold;
+    border: 1px solid;
+    margin-left: -8px;
+    
+
+}
+#icon {
+background-color: #F2F2F2;
+padding: 7px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-right: -8px;
+padding-right: 20px;
+padding-left: 10px;
+height: 18px;
+
+}
+
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    margin-left: 40px;
+  
+   
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+}
+
+nav {
+    display: flex;
+}
+
+#Booki {
+    height: 100px;
+    width: 180px;
+}
+
+.p1 {
+    margin: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.test {
+    display: flex;
+}
+
+h3 {
+    margin-top: 38px;
+}
+
+.sfilter {
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 0px; 
+
+}
+.i {
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-left: 0px;
+    border-color: #bbdefb;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 4px;
+    margin-left: -11px;
+    padding-left: 18px;
+    padding-right: 10px;
+}
+
+.i:hover {
+   
+    font-style:italic;
+    
+}
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -10px;
+    
+ 
+}
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+    color: #0065FC;
+    padding: 2px;
+    background-color: #bbdefb;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+
+a:link {
+    text-decoration: none;
+  
+  }
+
+
+
+
+#gigadiv {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.illustrations {
+   width: 210px;
+   height: 120px;
+   border-radius: 15px;
+   border-bottom-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+    
+}
+
+
+.illustrations2 {
+    
+    height: 322px;
+    width: 300px;
+    white-space: nowrap;
+    border-radius: 15px; 
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.illustrations3 {
+   max-height: 160px;
+   min-height: 160px;
+   max-width: 160px;
+   min-width: 160px;
+   border-radius: 15px;
+   border-top-right-radius: 0px;
+   border-bottom-right-radius: 0px;
+   padding: 4px;
+}
+
+.newdisplay {
+    display: flex;
+}
+
+.vignettes {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    
+}
+.vignettes2 {
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.display {
+    display: flex;
+}
+.display2 {
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.vignettes3 {
+    
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 3px;
+    box-shadow: 3px 3px 10px gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.vignettes4 {
+    background-color: white;
+    border-radius: 15px;
+    padding-left: 0px;
+    box-shadow: 3px 3px 10px gray;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+#icon2 {
+    border: solid;
+    border-radius: 50%;
+    padding: 8px;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    border-width: thin;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap : wrap;
+
+}
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+   
+
+  
+
+}
+.container2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#Hebergements {
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  
+   
+}
+#populaires {
+    background-color: #F2F2F2;
+    padding: 20px;
+    border-radius: 15px;  
+    margin-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#Activites {
+    padding: 20px;
+    border-radius: 15px; 
+        
+}
+
+
+.linky:hover {
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+#Marseilles {
+    margin-left: 30px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
